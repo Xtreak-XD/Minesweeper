@@ -27,7 +27,9 @@ This is a fully functional **Minesweeper game** built in Python using the **Tkin
 ---
 
 ## 📸 Screenshot
-<img width="281" height="422" alt="image" src="https://github.com/user-attachments/assets/f8010f80-f99a-4a92-882d-ec0f1f75f451" />
+<img width="380" height="140" alt="image" src="https://github.com/user-attachments/assets/b562c4be-2c70-48e3-b601-ff064f1d5266" />
+<p></p>
+<img width="280" height="425" alt="image" src="https://github.com/user-attachments/assets/8ff44b49-4867-428e-b36b-3f3f355a1a8e" />
 
 ---
 
