@@ -296,20 +296,6 @@ def click(x,y):                                                    #x=Rows, y=Co
                                 state = "disabled")
     win() #checks to see if the user has won
     
-#Clears the game screen when restarting game
-def clearGame():
-    global gameArea, custom, startTime, gameOver
-    gameOver = False
-    for boxes in custom.winfo_children(): #Checks all the entry boxes in the custom grid
-        boxes.destroy() #Destroys them all 
-    for w in gameArea.winfo_children(): #Obtains all the grids 
-        if type(w) != tk.Menu:#Makes sure it only deletes the grids of minesweeper
-            w.destroy() #Destroy them all
-    placeBombs(rVal,cVal) #restarts the game
-    gameMenu()
-    startTime = time.time() #Restarts the timer back
-    Timer()
-    
 customMenu() #Starts the custom menu screen
 
 #run
