@@ -1,4 +1,4 @@
-# 🧨 Minesweeper - Python Tkinter Edition
+# 🧨 Minesweeper
 
 This is a fully functional **Minesweeper game** built in Python using the **Tkinter GUI library**. Players can choose their own custom grid size (up to 25×25), place flags, and reveal tiles, just like the classic version! 
 
